@@ -1,6 +1,6 @@
 //Assignment
 
-function findLargestNumber(num1, num2, num3) {
+function  findNumber(num1, num2, num3) {
     if (num1 === num2 && num2 === num3) {
       alert("dhammaan numbers wey siman yihiin");
     } else {
@@ -10,4 +10,4 @@ function findLargestNumber(num1, num2, num3) {
   }
   
   
-  findLargestNumber(parseFloat(prompt('enter anum1')),parseFloat(prompt('enter anum1')),parseFloat(prompt('enter anum1')))
+  findNumber(parseFloat(prompt('enter anum1')),parseFloat(prompt('enter anum1')),parseFloat(prompt('enter anum1')))
